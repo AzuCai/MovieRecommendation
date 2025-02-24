@@ -2,6 +2,10 @@
 
 This project implements a hybrid movie recommendation system using Collaborative Filtering (SVD) to predict user ratings and provide personalized recommendations. It is built using the MovieLens dataset and includes visual evaluation tools, such as rating distribution and prediction accuracy plots.
 
+## Dataset
+
+The dataset used in this project is the MovieLens 1M dataset, which contains 1 million ratings from users on various movies. You can download it from [MovieLens website](https://grouplens.org/datasets/movielens/1m/).
+
 ## Project Structure
 
 ```
@@ -13,12 +17,9 @@ Recommendation-System
 ├── src
 │   ├── data_processing.py
 │   ├── model.py
+│   ├── main.py
 │   ├── evaluation.py
 │   └── visualization.py
-├── notebooks
-│   └── example.ipynb
-├── figures
-│   └── results.png
 └── README.md
 ```
 
