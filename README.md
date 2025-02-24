@@ -42,10 +42,8 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 
 ## Usage
 
-Run the example notebook using Jupyter:
-
 ```bash
-jupyter notebook notebooks/example.ipynb
+python src/main.py
 ```
 
 Alternatively, execute the scripts individually:
